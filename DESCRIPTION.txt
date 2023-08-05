@@ -1,0 +1,45 @@
+Package: nbaanalysis
+Title: Shiny App with NBA Player Summaries and Comparisons
+Version: 0.1
+Authors@R: c(
+  person("Johnny", "Antoun", ,"johnny.antoun@duke.edu", role = c("aut", "cre")),
+  person("Eric", "Bai", ,"eric.bai@duke.edu", role = c("aut")),
+  person("Jackie", "Du", , "jacquelyn.du@duke.edu", role = c("aut")),
+  person("Rich", "Fremgen", , "richard.fremgen@duke.edu", role = c("aut"))
+  )
+Description: A shiny app that allows users to select a currently active NBA player. 
+  The app provides an overview of the selected player on their career stats, heatmap of average shot accuracy by distance, as well as time-series plots to show career trends. 
+  Finally, the interface allows the user to choose two statistics to generate a scatterplot across all NBA players to view relationships between different stats. 
+  Users can filter by years of pro experience and position to narrow the scope and view how their selected player match up to the rest of the NBA. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Depends: 
+    R (>= 2.10)
+Imports: 
+    teamcolors,
+    shiny,
+    shinyWidgets,
+    shinydashboard,
+    ggforce,
+    ggplot2,
+    dplyr,
+    magrittr,
+    reactable,
+    usethis,
+    rvest,
+    purrr,
+    here,
+    readr,
+    stats,
+    devtools,
+    stringr,
+    ggthemes,
+    shinycssloaders,
+    ggrepel
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

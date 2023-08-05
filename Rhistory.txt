@@ -1,0 +1,25 @@
+usethis::use_mit_license(c("Johnny Antoun", "Eric Bai", "Jackie Du", "Rich Fremgen"))
+?nbaanalysis
+library(nbaanalysis)
+?nbaanalysis
+usethis::use_git_ignore("/inst")
+usethis::use_build_ignore("/inst")
+knitr::opts_chunk$set(
+collapse = TRUE,
+comment = "#>"
+)
+plot(1:10)
+plot(10:1)
+knitr::kable(head(mtcars, 10))
+library(nbaanalysis)
+nbaanalysis::run_nba_analysis()
+library(nbaanalysis)
+nbaanalysis::run_nba_analysis()
+library(nbaanalysis)
+nbaanalysis::run_nba_analysis()
+nbaanalysis::shooting_data
+nbaanalysis::run_nba_analysis()
+nbaanalysis::run_nba_analysis()
+nbaanalysis::run_nba_analysis()
+nbaanalysis::run_nba_analysis()
+nbaanalysis::run_nba_analysis()
